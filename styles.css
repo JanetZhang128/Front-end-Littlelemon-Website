@@ -1,0 +1,152 @@
+body {
+    background-color:#EDEFEE;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: orem;
+}
+
+nav ul li {
+    display:inline-block;
+    margin:0.25rem;
+}
+
+ul li a {
+    color: #edefee;
+    text-decoration: none;
+}
+
+ul li a:active {
+    text-decoration: underline;
+
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+article {
+    flex:1;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+article img {
+    width:  250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+article ul {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+article a:link {
+    font-size: 1.3rem;
+    color:#333333;
+}
+
+article a:hover {
+    color: #495E57;
+}
+
+article a:active {
+    color: #EDEFEE;
+    background-color: #495E57
+}
+
+main article {
+    background-color: #fbdabb79;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#campaign {
+    background-image: url("https://t3.ftcdn.net/jpg/01/61/02/92/360_F_161029256_Z3TQfdHZJNlqGrcZ7e8lvmG7CO0D31UT.jpg");
+    background-size: cover;
+    background-position: center;
+    color:#333333;
+    text-shadow: 2px 2px 8px #FFF9B0;
+    text-align: right;
+}
+
+#campaign h1 {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#campaign p {
+    max-width: 100%;
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer p {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+}
+
+footer div {
+    flex: 1;
+}
